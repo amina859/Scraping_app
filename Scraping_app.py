@@ -23,7 +23,7 @@ def background(img):
         """,
         unsafe_allow_html=True
     )
-background("Images\house9.avif") 
+background("Images/house9.avif") 
 
 # Fonction de scraping pour les appartements
 def apt_scraping(num_pages):
