@@ -145,8 +145,8 @@ if choix == "Scraper avec BeautifulSoup":
 
 elif choix == "Télécharger des données":
     st.write("### Que souhaitez-vous télécharger ?")
-    Appartemments_csv = pd.read_csv("Web_scraper_data\Apartements_scraping.csv")
-    Terrains_csv = pd.read_csv("Web_scraper_data\Terrains_Scrape.csv")
+    Appartemments_csv = pd.read_csv("Apartements_scraping.csv")
+    Terrains_csv = pd.read_csv("Terrains_Scrape.csv")
     st.markdown(""" <style> .stButton>button {
             font-size: 10px;
             height: 2em;
